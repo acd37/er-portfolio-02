@@ -20,9 +20,11 @@
 
     <header>
         <div class="wave">
-            <h1 class="title">John Doe.</h1>
-            <h3 class="subtitle">Building beautiful applications that just work.</h3>
-            <img src="assets/images/student.png" class="boy" alt="boy image" />
+            <div class="container header-container">
+                <h1 class="title">John Doe.</h1>
+                <h3 class="subtitle text-center">Building beautiful applications that just work.</h3>
+                <img src="assets/images/student.png" class="boy" alt="boy image" />
+            </div>
         </div>
         <div class="wave-svg">
             <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" opacity="1" width="100%" height="80"
@@ -42,7 +44,6 @@
             applications
             built on
             JavaScript technologies. </h3>
-
     </section>
 
     <section class="container skill-container">
@@ -94,14 +95,10 @@
                 d="M1610,95.3c0,0-216,80-412,80c-98,0-245.8-40.5-395.1-80.9c149.4,46.2,297.1,92.3,395.1,92.3C1394,186.7,1610,95.3,1610,95.3z" />
         </svg>
     </div>
+
     <section class="container-color">
-
-
     </section>
-
-
-
-    <section class="container skills">
+    <section class="container">
         <div class="card custom-card">
             <div class="card-body">
                 <span class="card-icon">
@@ -109,25 +106,16 @@
                 </span>
 
                 <h3 class="card-title">More about Me</h3>
-                <p class="card-text">Building practical and secure server-side applications to meet your business
-                    and personal needs.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque
+                    viverra vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos. Vestibulum elementum fringilla lectus, ac condimentum mauris. Mauris vel tellus id tellus
+                    accumsan convallis sed sed elit. </p>
                 <h5 class="card-title">
                     Technologies I use:
                 </h5>
                 <p class="card-text">
-                    NodeJs, ExpressJS, MySQL & MongoDB, Java, Spring
-                    <h5 class="card-title">
-                        Dev Tools:
-                    </h5>
-                    <p class="card-text">
-                        Eclipse & IntelliJ<br />
-                        Sequelize & Mongoose<br />
-                        Database Architecting<br />
-                        Application Design<br />
-                        Secure authentication<br />
-                        Payment Processing<br />
-
-                    </p>
+                    HTML5, CSS3, Git, Bootstrap, JavaScript
+                </p>
             </div>
         </div>
     </section>
@@ -156,7 +144,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
                     </p>
-                    <a href="#" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
                     <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
                 </div>
             </div>
@@ -173,7 +161,7 @@
                         modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
                         ipsa.
                     </p>
-                    <a href="#" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
                     <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
                 </div>
             </div>
@@ -189,7 +177,7 @@
                         modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
                         ipsa.
                     </p>
-                    <a href="#" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
                     <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
 
                 </div>
@@ -207,7 +195,7 @@
                         modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
                         ipsa.
                     </p>
-                    <a href="#" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
                     <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
                 </div>
             </div>
@@ -223,7 +211,7 @@
                         modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
                         ipsa.
                     </p>
-                    <a href="#" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
                     <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
                 </div>
             </div>
@@ -231,6 +219,27 @@
     </div>
 
 
+    <!-- EDUCATION -->
+    <section class="container education-container">
+        <h1 class="title">Education </h1>
+        <article class="education-item">
+            <h3 class="subtitle">Vanderbilt University</h3>
+            <span class="text-muted">Full-stack Web Development | Jan 2019 - Jul 2019</span>
+        </article>
+        <hr />
+        <article class="education-item">
+            <h3 class="subtitle">Vanderbilt University</h3>
+            <span class="text-muted">M.Ed. Higher Education | Aug 2014 - May 2016</span>
+        </article>
+        <hr />
+        <article class="education-item">
+            <h3 class="subtitle">University of Utah</h3>
+            <span class="text-muted">B.S. Electrical Engineering | Aug 2010 - May 2014</span>
+        </article>
+
+
+
+    </section>
 
     <!-- AVAILABLE FOR WORK -->
     <section class="container-color">
@@ -243,29 +252,25 @@
     </section>
 
     <!-- FOOTER -->
-    <section class="container-fluid">
-        <div class="row">
-            <div class="card text-white bg-dark mb-3 start-project-card">
-                <div class="card-body card-flex">
-                    <h3 class="intro subtitle contact-me-subtitle">Contact Me</h3>
-                    <h3 class="intro subtitle">
-
-                        <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="https://linkedin.com/in" class="social-icon"><i class="fab fa-linkedin"></i></a>
-                        <a href="jttps://github.com/" class="social-icon"><i class="fab fa-github"></i></a>
-                        <a href="mailto:<YOUREMAIL>" class="social-icon"><i class="fas fa-envelope"></i></a>
-
-                    </h3>
-                </div>
-            </div>
+    <section class="container-dark">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <h3 class="intro subtitle">
+                <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/in" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="jttps://github.com/" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="mailto:<YOUREMAIL>" class="social-icon"><i class="fas fa-envelope"></i></a>
+            </h3>
         </div>
     </section>
 
     <footer>
-        John Doe &copy; 2019 - 2020 |
-        <a href="#" data-toggle="modal" data-target="#imageCredits">
-            &nbsp;Image Credits
-        </a>
+        <div class="container">
+            John Doe &copy; 2019 - 2020 |
+            <a href="#" data-toggle="modal" data-target="#imageCredits">
+                &nbsp;Image Credits
+            </a>
+        </div>
     </footer>
 
     <!-- Modal -->
@@ -288,6 +293,7 @@
             </div>
         </div>
     </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
